@@ -1,13 +1,10 @@
 " 显示行号
 set nu
-colorscheme jellybeans
+colorscheme elflord
 " 打开语法高亮
 syntax on
-" 总是显示状态行
-set laststatus=2
-" 状态栏显示当前执行的命令
-set showcmd
 " 设定编码
 set enc=utf-8
 set fileencodings=ucs-bom,utf-8,chinese
 set langmenu=zh_CN.UTF-8
+source ~/.vim/snippits.vim
